@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 93,
+    "uniqCompNum": 106,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -128,7 +128,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">КАТАЛОГ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">КОНТАКТЫ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Галерея</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">КАТАЛОГ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -507,7 +507,7 @@
             "slides": [
               {
                 "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/3641_dsc-2000x1332.jpg",
-                "active": false,
+                "active": true,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/3641-dsc-1024x576.jpg",
@@ -557,7 +557,7 @@
               },
               {
                 "src": "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-06-16_032811/assets/images/8022_dsc0177-2000x1332.jpg",
-                "active": true,
+                "active": false,
                 "link": false,
                 "linkUrl": "http://google.com",
                 "image": "@PROJECT_PATH@/assets/images/8022-dsc0177-1024x576.jpg",
@@ -1245,129 +1245,61 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Обзор</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "24px"
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-11",
+          "_anchor": "header2-2n",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#7e9b9f",
-            "showMeta": false
-          },
-          "title": "Варианты выпускаемых мешалок &nbsp; &nbsp;",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6121-dsc0029-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6121-dsc0029-2000x1332.jpg",
-                "caption": "Мешалка фреза",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6260-dsc0049-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6260-dsc0049-2000x1332.jpg",
-                "caption": "Вариант мешалки",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6140-dsc0030-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6140-dsc0030-2000x1332.jpg",
-                "caption": "Вакуумно - выпарные установки",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6464-dsc0009-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6464-dsc0009-2000x1332.jpg",
-                "caption": "Ленточный смеситель",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6604-dsc0076-2000x1332.jpg",
-                "caption": "Пропеллерная мешалка",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7049-dsc0049-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7049-dsc0049-2000x1332.jpg",
-                "caption": "Лопастная мешалка для жидких сред",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7049-dsc0021-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7049-dsc0021-2000x1332.jpg",
-                "caption": "Лопастной смеситель для вязких продуктов",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7170-dsc0060-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7170-dsc0060-2000x1332.jpg",
-                "caption": "Соосная мешалка",
-                "active": true
-              }
-            ],
-            "spacing": "1",
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/st-s6302434-2000x1333-1.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
             "showText": true,
-            "filter": false,
-            "bgColor": "#cccccc",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "showButtons": false,
+            "showArrow": true
           },
-          "_anchor": "gallery1-10",
-          "articleLayout": false,
-          "allItem": "All"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/3590-vak-mik-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Пищевое оборудование",
+          "text": "<b>РАЗРАБОТКА, ПРОИЗВОДСТВО, ПРОДАЖА</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "alias": "mobirise3-blocks/components",
